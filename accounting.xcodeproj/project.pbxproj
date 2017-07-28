@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9050F971EF4194200DB3A4A /* PrikazOtkupnihListovaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9050F961EF4194200DB3A4A /* PrikazOtkupnihListovaVC.swift */; };
+		E9050F991EF423EC00DB3A4A /* PrikazOtkupnihListovaTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9050F981EF423EC00DB3A4A /* PrikazOtkupnihListovaTableVC.swift */; };
+		E9050F9B1EF5B25200DB3A4A /* FinansijskaKarticaGazdinstvaOtkupniListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9050F9A1EF5B25200DB3A4A /* FinansijskaKarticaGazdinstvaOtkupniListTableVC.swift */; };
+		E90EF74D1EE6F0AE004092BA /* FinansijskaKarticaGazdinstvaAvansTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90EF74C1EE6F0AE004092BA /* FinansijskaKarticaGazdinstvaAvansTableVC.swift */; };
+		E90EF74F1EE6F0E9004092BA /* FinansijskaKarticaGazdinstvaUgovorTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90EF74E1EE6F0E9004092BA /* FinansijskaKarticaGazdinstvaUgovorTableVC.swift */; };
+		E9431B361EC8F39C003873CD /* UnosNovogGazdinstvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9431B351EC8F39C003873CD /* UnosNovogGazdinstvaVC.swift */; };
+		E9431B3A1EC9ECB5003873CD /* IzbrisiGazdinstvoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9431B391EC9ECB5003873CD /* IzbrisiGazdinstvoVC.swift */; };
+		E9431B3B1EC9F774003873CD /* PrikaziGazdinstvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9431B371EC99481003873CD /* PrikaziGazdinstvaVC.swift */; };
+		E9431B3D1ECB7E14003873CD /* IzmeniPodatkeGazdinstvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9431B3C1ECB7E14003873CD /* IzmeniPodatkeGazdinstvaVC.swift */; };
+		E9431B3F1ECCAFAB003873CD /* FiltriranaGazdinstvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9431B3E1ECCAFAB003873CD /* FiltriranaGazdinstvaVC.swift */; };
+		E94E20151ECED65200470A74 /* UnosOdvagaOdGazdinstavaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E20141ECED65200470A74 /* UnosOdvagaOdGazdinstavaVC.swift */; };
+		E94E20171ECF480A00470A74 /* PrikazUnetihListicaOdvageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E20161ECF480A00470A74 /* PrikazUnetihListicaOdvageVC.swift */; };
+		E94E20191ECF4FF100470A74 /* OdvageTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E20181ECF4FF100470A74 /* OdvageTableVC.swift */; };
+		E94E201B1ED16C5B00470A74 /* GenerisiOtkupniListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E201A1ED16C5B00470A74 /* GenerisiOtkupniListVC.swift */; };
+		E952F86A1EC8559800A624A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952F8691EC8559800A624A4 /* AppDelegate.swift */; };
+		E952F86C1EC8559800A624A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952F86B1EC8559800A624A4 /* ViewController.swift */; };
+		E952F8721EC8559800A624A4 /* accounting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E952F8701EC8559800A624A4 /* accounting.xcdatamodeld */; };
+		E952F8741EC8559800A624A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E952F8731EC8559800A624A4 /* Assets.xcassets */; };
+		E952F8771EC8559800A624A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E952F8751EC8559800A624A4 /* LaunchScreen.storyboard */; };
+		E952F87F1EC85E6900A624A4 /* PoljoprivrednaGazdinstvaGlavniMeni.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952F87E1EC85E6900A624A4 /* PoljoprivrednaGazdinstvaGlavniMeni.swift */; };
+		E952F8811EC8601800A624A4 /* DOOGlavniMeni.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952F8801EC8601800A624A4 /* DOOGlavniMeni.swift */; };
+		E96F5E621EE56F840097A9B1 /* GazdinstvoPreuzimaRobuPoUgovoruTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F5E611EE56F840097A9B1 /* GazdinstvoPreuzimaRobuPoUgovoruTableVC.swift */; };
+		E9851EA61ED726E2004D89D4 /* IzvodiGlavniMeni.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9851EA51ED726E2004D89D4 /* IzvodiGlavniMeni.swift */; };
+		E9851EA81ED75834004D89D4 /* DodajPromeneSaIzvoda.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9851EA71ED75834004D89D4 /* DodajPromeneSaIzvoda.swift */; };
+		E9851EAC1ED812F0004D89D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9851EAB1ED812F0004D89D4 /* Main.storyboard */; };
+		E9851EAE1EDC3E06004D89D4 /* FinansijskaKarticaGazdinstvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9851EAD1EDC3E06004D89D4 /* FinansijskaKarticaGazdinstvaVC.swift */; };
+		E9851EB21EDC9D81004D89D4 /* GenerisiUgovorSaGazdinstvomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9851EB11EDC9D81004D89D4 /* GenerisiUgovorSaGazdinstvomVC.swift */; };
+		E98D77271EDF0FF100A3810D /* ArtiklVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D77261EDF0FF100A3810D /* ArtiklVC.swift */; };
+		E9D71C4D1EE06F5D00369B1F /* GazdinstvoPreuzimaRobuPoUgovoruVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D71C4C1EE06F5D00369B1F /* GazdinstvoPreuzimaRobuPoUgovoruVC.swift */; };
+		E9E192A61EDD9CFD008B9EBD /* KursnaListaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E192A51EDD9CFD008B9EBD /* KursnaListaVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9050F961EF4194200DB3A4A /* PrikazOtkupnihListovaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazOtkupnihListovaVC.swift; sourceTree = "<group>"; };
+		E9050F981EF423EC00DB3A4A /* PrikazOtkupnihListovaTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazOtkupnihListovaTableVC.swift; sourceTree = "<group>"; };
+		E9050F9A1EF5B25200DB3A4A /* FinansijskaKarticaGazdinstvaOtkupniListTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinansijskaKarticaGazdinstvaOtkupniListTableVC.swift; sourceTree = "<group>"; };
+		E90EF74C1EE6F0AE004092BA /* FinansijskaKarticaGazdinstvaAvansTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinansijskaKarticaGazdinstvaAvansTableVC.swift; sourceTree = "<group>"; };
+		E90EF74E1EE6F0E9004092BA /* FinansijskaKarticaGazdinstvaUgovorTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinansijskaKarticaGazdinstvaUgovorTableVC.swift; sourceTree = "<group>"; };
+		E9431B351EC8F39C003873CD /* UnosNovogGazdinstvaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnosNovogGazdinstvaVC.swift; sourceTree = "<group>"; };
+		E9431B371EC99481003873CD /* PrikaziGazdinstvaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikaziGazdinstvaVC.swift; sourceTree = "<group>"; };
+		E9431B391EC9ECB5003873CD /* IzbrisiGazdinstvoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IzbrisiGazdinstvoVC.swift; sourceTree = "<group>"; };
+		E9431B3C1ECB7E14003873CD /* IzmeniPodatkeGazdinstvaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IzmeniPodatkeGazdinstvaVC.swift; sourceTree = "<group>"; };
+		E9431B3E1ECCAFAB003873CD /* FiltriranaGazdinstvaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltriranaGazdinstvaVC.swift; sourceTree = "<group>"; };
+		E94E20141ECED65200470A74 /* UnosOdvagaOdGazdinstavaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnosOdvagaOdGazdinstavaVC.swift; sourceTree = "<group>"; };
+		E94E20161ECF480A00470A74 /* PrikazUnetihListicaOdvageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrikazUnetihListicaOdvageVC.swift; sourceTree = "<group>"; };
+		E94E20181ECF4FF100470A74 /* OdvageTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdvageTableVC.swift; sourceTree = "<group>"; };
+		E94E201A1ED16C5B00470A74 /* GenerisiOtkupniListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerisiOtkupniListVC.swift; sourceTree = "<group>"; };
+		E952F8661EC8559800A624A4 /* accounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = accounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E952F8691EC8559800A624A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E952F86B1EC8559800A624A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E952F8711EC8559800A624A4 /* accounting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = accounting.xcdatamodel; sourceTree = "<group>"; };
+		E952F8731EC8559800A624A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E952F8761EC8559800A624A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E952F8781EC8559800A624A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E952F87E1EC85E6900A624A4 /* PoljoprivrednaGazdinstvaGlavniMeni.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoljoprivrednaGazdinstvaGlavniMeni.swift; sourceTree = "<group>"; };
+		E952F8801EC8601800A624A4 /* DOOGlavniMeni.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOOGlavniMeni.swift; sourceTree = "<group>"; };
+		E96F5E611EE56F840097A9B1 /* GazdinstvoPreuzimaRobuPoUgovoruTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GazdinstvoPreuzimaRobuPoUgovoruTableVC.swift; sourceTree = "<group>"; };
+		E9851EA51ED726E2004D89D4 /* IzvodiGlavniMeni.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IzvodiGlavniMeni.swift; sourceTree = "<group>"; };
+		E9851EA71ED75834004D89D4 /* DodajPromeneSaIzvoda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DodajPromeneSaIzvoda.swift; sourceTree = "<group>"; };
+		E9851EAB1ED812F0004D89D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E9851EAD1EDC3E06004D89D4 /* FinansijskaKarticaGazdinstvaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinansijskaKarticaGazdinstvaVC.swift; sourceTree = "<group>"; };
+		E9851EB11EDC9D81004D89D4 /* GenerisiUgovorSaGazdinstvomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerisiUgovorSaGazdinstvomVC.swift; sourceTree = "<group>"; };
+		E98D77261EDF0FF100A3810D /* ArtiklVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtiklVC.swift; sourceTree = "<group>"; };
+		E9D71C4C1EE06F5D00369B1F /* GazdinstvoPreuzimaRobuPoUgovoruVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GazdinstvoPreuzimaRobuPoUgovoruVC.swift; sourceTree = "<group>"; };
+		E9E192A51EDD9CFD008B9EBD /* KursnaListaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KursnaListaVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E952F8631EC8559800A624A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E952F85D1EC8559800A624A4 = {
+			isa = PBXGroup;
+			children = (
+				E952F8681EC8559800A624A4 /* accounting */,
+				E952F8671EC8559800A624A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E952F8671EC8559800A624A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E952F8661EC8559800A624A4 /* accounting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E952F8681EC8559800A624A4 /* accounting */ = {
+			isa = PBXGroup;
+			children = (
+				E9851EAB1ED812F0004D89D4 /* Main.storyboard */,
+				E94E20181ECF4FF100470A74 /* OdvageTableVC.swift */,
+				E90EF74C1EE6F0AE004092BA /* FinansijskaKarticaGazdinstvaAvansTableVC.swift */,
+				E90EF74E1EE6F0E9004092BA /* FinansijskaKarticaGazdinstvaUgovorTableVC.swift */,
+				E9050F9A1EF5B25200DB3A4A /* FinansijskaKarticaGazdinstvaOtkupniListTableVC.swift */,
+				E96F5E611EE56F840097A9B1 /* GazdinstvoPreuzimaRobuPoUgovoruTableVC.swift */,
+				E9050F981EF423EC00DB3A4A /* PrikazOtkupnihListovaTableVC.swift */,
+				E952F8691EC8559800A624A4 /* AppDelegate.swift */,
+				E952F86B1EC8559800A624A4 /* ViewController.swift */,
+				E98D77261EDF0FF100A3810D /* ArtiklVC.swift */,
+				E9E192A51EDD9CFD008B9EBD /* KursnaListaVC.swift */,
+				E952F8801EC8601800A624A4 /* DOOGlavniMeni.swift */,
+				E952F87E1EC85E6900A624A4 /* PoljoprivrednaGazdinstvaGlavniMeni.swift */,
+				E9050F961EF4194200DB3A4A /* PrikazOtkupnihListovaVC.swift */,
+				E9431B351EC8F39C003873CD /* UnosNovogGazdinstvaVC.swift */,
+				E9431B371EC99481003873CD /* PrikaziGazdinstvaVC.swift */,
+				E9431B391EC9ECB5003873CD /* IzbrisiGazdinstvoVC.swift */,
+				E9431B3C1ECB7E14003873CD /* IzmeniPodatkeGazdinstvaVC.swift */,
+				E9431B3E1ECCAFAB003873CD /* FiltriranaGazdinstvaVC.swift */,
+				E94E20141ECED65200470A74 /* UnosOdvagaOdGazdinstavaVC.swift */,
+				E94E20161ECF480A00470A74 /* PrikazUnetihListicaOdvageVC.swift */,
+				E94E201A1ED16C5B00470A74 /* GenerisiOtkupniListVC.swift */,
+				E9851EAD1EDC3E06004D89D4 /* FinansijskaKarticaGazdinstvaVC.swift */,
+				E9851EB11EDC9D81004D89D4 /* GenerisiUgovorSaGazdinstvomVC.swift */,
+				E9D71C4C1EE06F5D00369B1F /* GazdinstvoPreuzimaRobuPoUgovoruVC.swift */,
+				E9851EA51ED726E2004D89D4 /* IzvodiGlavniMeni.swift */,
+				E9851EA71ED75834004D89D4 /* DodajPromeneSaIzvoda.swift */,
+				E952F8731EC8559800A624A4 /* Assets.xcassets */,
+				E952F8751EC8559800A624A4 /* LaunchScreen.storyboard */,
+				E952F8781EC8559800A624A4 /* Info.plist */,
+				E952F8701EC8559800A624A4 /* accounting.xcdatamodeld */,
+			);
+			path = accounting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E952F8651EC8559800A624A4 /* accounting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E952F87B1EC8559800A624A4 /* Build configuration list for PBXNativeTarget "accounting" */;
+			buildPhases = (
+				E952F8621EC8559800A624A4 /* Sources */,
+				E952F8631EC8559800A624A4 /* Frameworks */,
+				E952F8641EC8559800A624A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = accounting;
+			productName = accounting;
+			productReference = E952F8661EC8559800A624A4 /* accounting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E952F85E1EC8559800A624A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kikokiko;
+				TargetAttributes = {
+					E952F8651EC8559800A624A4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 82A5QR42VN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E952F8611EC8559800A624A4 /* Build configuration list for PBXProject "accounting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E952F85D1EC8559800A624A4;
+			productRefGroup = E952F8671EC8559800A624A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E952F8651EC8559800A624A4 /* accounting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E952F8641EC8559800A624A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9851EAC1ED812F0004D89D4 /* Main.storyboard in Resources */,
+				E952F8771EC8559800A624A4 /* LaunchScreen.storyboard in Resources */,
+				E952F8741EC8559800A624A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E952F8621EC8559800A624A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E192A61EDD9CFD008B9EBD /* KursnaListaVC.swift in Sources */,
+				E94E20191ECF4FF100470A74 /* OdvageTableVC.swift in Sources */,
+				E952F86C1EC8559800A624A4 /* ViewController.swift in Sources */,
+				E952F8721EC8559800A624A4 /* accounting.xcdatamodeld in Sources */,
+				E94E201B1ED16C5B00470A74 /* GenerisiOtkupniListVC.swift in Sources */,
+				E9851EB21EDC9D81004D89D4 /* GenerisiUgovorSaGazdinstvomVC.swift in Sources */,
+				E96F5E621EE56F840097A9B1 /* GazdinstvoPreuzimaRobuPoUgovoruTableVC.swift in Sources */,
+				E94E20171ECF480A00470A74 /* PrikazUnetihListicaOdvageVC.swift in Sources */,
+				E9431B3B1EC9F774003873CD /* PrikaziGazdinstvaVC.swift in Sources */,
+				E9431B3A1EC9ECB5003873CD /* IzbrisiGazdinstvoVC.swift in Sources */,
+				E9431B361EC8F39C003873CD /* UnosNovogGazdinstvaVC.swift in Sources */,
+				E952F8811EC8601800A624A4 /* DOOGlavniMeni.swift in Sources */,
+				E9050F9B1EF5B25200DB3A4A /* FinansijskaKarticaGazdinstvaOtkupniListTableVC.swift in Sources */,
+				E952F86A1EC8559800A624A4 /* AppDelegate.swift in Sources */,
+				E90EF74D1EE6F0AE004092BA /* FinansijskaKarticaGazdinstvaAvansTableVC.swift in Sources */,
+				E90EF74F1EE6F0E9004092BA /* FinansijskaKarticaGazdinstvaUgovorTableVC.swift in Sources */,
+				E9431B3D1ECB7E14003873CD /* IzmeniPodatkeGazdinstvaVC.swift in Sources */,
+				E9851EA61ED726E2004D89D4 /* IzvodiGlavniMeni.swift in Sources */,
+				E98D77271EDF0FF100A3810D /* ArtiklVC.swift in Sources */,
+				E952F87F1EC85E6900A624A4 /* PoljoprivrednaGazdinstvaGlavniMeni.swift in Sources */,
+				E9851EAE1EDC3E06004D89D4 /* FinansijskaKarticaGazdinstvaVC.swift in Sources */,
+				E94E20151ECED65200470A74 /* UnosOdvagaOdGazdinstavaVC.swift in Sources */,
+				E9D71C4D1EE06F5D00369B1F /* GazdinstvoPreuzimaRobuPoUgovoruVC.swift in Sources */,
+				E9050F971EF4194200DB3A4A /* PrikazOtkupnihListovaVC.swift in Sources */,
+				E9050F991EF423EC00DB3A4A /* PrikazOtkupnihListovaTableVC.swift in Sources */,
+				E9851EA81ED75834004D89D4 /* DodajPromeneSaIzvoda.swift in Sources */,
+				E9431B3F1ECCAFAB003873CD /* FiltriranaGazdinstvaVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E952F8751EC8559800A624A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E952F8761EC8559800A624A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E952F8791EC8559800A624A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E952F87A1EC8559800A624A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E952F87C1EC8559800A624A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82A5QR42VN;
+				INFOPLIST_FILE = accounting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikokiko.accounting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E952F87D1EC8559800A624A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82A5QR42VN;
+				INFOPLIST_FILE = accounting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kikokiko.accounting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E952F8611EC8559800A624A4 /* Build configuration list for PBXProject "accounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E952F8791EC8559800A624A4 /* Debug */,
+				E952F87A1EC8559800A624A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E952F87B1EC8559800A624A4 /* Build configuration list for PBXNativeTarget "accounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E952F87C1EC8559800A624A4 /* Debug */,
+				E952F87D1EC8559800A624A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E952F8701EC8559800A624A4 /* accounting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E952F8711EC8559800A624A4 /* accounting.xcdatamodel */,
+			);
+			currentVersion = E952F8711EC8559800A624A4 /* accounting.xcdatamodel */;
+			path = accounting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E952F85E1EC8559800A624A4 /* Project object */;
+}

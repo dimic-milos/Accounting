@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AvansiGazdinstvima" representedClassName="AvansiGazdinstvima" syncable="YES" codeGenerationType="class">
+        <attribute name="avansJeZatvoren" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="banka" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bpg" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojAvansa" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojIzvoda" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojPoslednjegAvansa" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="datum" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="kompenzovano" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="naziv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="odliv" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Kompenzacija" representedClassName="Kompenzacija" syncable="YES" codeGenerationType="class">
+        <attribute name="bPG" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojKompenzacije" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojOtkupnogListaNaOsnovuKojegSeSprovodiKompenzacija" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojPoslednjeKompenzacije" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojUgovoraZaKompenzacijuDva" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojUgovoraZaKompenzacijuJedan" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojUgovoraZaKompenzacijuTri" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="datumKompenzacije" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="iznosUgovoraZaKompenzacijuDva" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iznosUgovoraZaKompenzacijuJedan" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iznosUgovoraZaKompenzacijuTri" optional="YES" attributeType="Decimal" defaultValueString="0" syncable="YES"/>
+        <attribute name="nazivPG" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="KursnaLista" representedClassName="KursnaLista" syncable="YES" codeGenerationType="class">
+        <attribute name="datum" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="donji" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gornji" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="kursnaValuta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srednji" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ListaDjubriva" representedClassName="ListaDjubriva" syncable="YES" codeGenerationType="class">
+        <attribute name="basNazivSamogArtikla" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jedinicaMere" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kolicinaUPojedinacnomPakovanju" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="naziv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="porekloArtiklaZaDodavanje" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Log" representedClassName="Log" syncable="YES" codeGenerationType="class">
+        <attribute name="jeb" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="staSeDesilo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NalogMagacinuDaIzdaRobuPoUgovoru" representedClassName="NalogMagacinuDaIzdaRobuPoUgovoru" syncable="YES" codeGenerationType="class">
+        <attribute name="artiklKojiPreuzima" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brojGazdinstva" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojNalogaMagacinuDaIzda" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="datumIzdavanjaRobe" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="jedinicaZaMeru" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nazivKupca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poKomUgovoru" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="preuzetaKolicina" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="OtkupniList" representedClassName="OtkupniList" syncable="YES" codeGenerationType="class">
+        <attribute name="adresaPG" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bPG" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojeviAvansaKojiSuKorisceniZaOtkupniList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brojeviNMDPzaOtkupniList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brojeviUgovoraKoriscenihZaOtkupniList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brojOtkupnogLista" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojPoslednjegOtkupnogLista" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bruto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cenaZaKgBezPDV" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cenaZaKgSaPDV" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="datumIzradeOtkupnogLista" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="datumPrijemaSaNajranijeOdvageNaOtkupnomListu" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="jus" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="knjizenoUplateNaOvajOtkupniList" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nazivPG" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="neto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="odbitak" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pdvJeUplacen" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="robaKojaJeOtkupljena" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tara" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tekuciRacunPG" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ukupnoNivelacijeDocnje" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ukupnoSkinutoSaAvansa" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ukupnoSkinutoSaUgovora" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ukupnoValutneNivelacije" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ukupnoZaObracun" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="vrednostBezPDV" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="vrednostPDV" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="zaUplatuPGu" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="zaUplatuPGuJeUplaceno" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PrijemRobeSaVageOdPG" representedClassName="PrijemRobeSaVageOdPG" syncable="YES" codeGenerationType="class">
+        <attribute name="brojNalogaMagacinuDaPrimi" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojPoslednjegNalogaMagacinuDaPrimi" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="datumPrijema" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="kojaRoba" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nalogMagacniuDaPrimiUpotrebljen" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="odbitakKgZbogPrimesa" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="odbitakKgZbogVlage" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="prosecnaVlagaNalogaMDP" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="prosecnePrimeseNalogaMDP" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ukupnaTara" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ukupniBruto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ukupniOdbitakKg" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ukupnoJUSkg" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ukupnoNeto" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="SviDOO" representedClassName="SviDOO" syncable="YES" codeGenerationType="class">
+        <attribute name="adresa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maticniBroj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mesto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="naziv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pib" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tekuciRacun" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SviPG" representedClassName="SviPG" syncable="YES" codeGenerationType="class">
+        <attribute name="adresa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bpg" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojLicneKarte" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="jmbg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mesto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="naziv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tekuciRacun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefon" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UgovorSaGazdinstvomKooperacija" representedClassName="UgovorSaGazdinstvomKooperacija" syncable="YES" codeGenerationType="class">
+        <attribute name="adresa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brojMenice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brojPoslednjegUgovora" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="brojUgovora" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cenaPoJediniciMere" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="datumskaValutaUgovora" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="datumSklapanjaUgovora" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="docnja" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="inicijalizator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iznosNivelacijeDocnje" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iznosValutneNivelacije" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jedinicaZaMeru" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kolicinaRobe" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maticniBroj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mesto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minimalniKursZaObracunRazduzenja" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nacelnaVrednostUgovora" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nacinRazduzenja" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="naziv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="neotplacenaVrednostUgovora" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="otplaceno" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pib" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="povratnaAdresaPG" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="povratniBroj" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="povratniBrojLicneKarte" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="povratniJmbg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="povratniTekuciRacun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="povratniTelefon" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="povratnoIme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="povratnoMesto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preuzetaKolicina" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="realizovanaVrednostUgovora" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="repromaterijalFinansiranUgovorom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robaKojaJePredmetUgovora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tekuciRacun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ugovorJeZatvoren" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="valutaUgovora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valutnaKlauzula" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="vrednostPDVaOvogUgovora" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AvansiGazdinstvima" positionX="117" positionY="-171" width="128" height="195"/>
+        <element name="Kompenzacija" positionX="-171" positionY="-234" width="128" height="225"/>
+        <element name="KursnaLista" positionX="-45" positionY="-162" width="128" height="120"/>
+        <element name="ListaDjubriva" positionX="-72" positionY="-18" width="128" height="118"/>
+        <element name="Log" positionX="295" positionY="-387" width="128" height="73"/>
+        <element name="NalogMagacinuDaIzdaRobuPoUgovoru" positionX="-171" positionY="-234" width="128" height="165"/>
+        <element name="OtkupniList" positionX="313" positionY="-297" width="128" height="495"/>
+        <element name="PrijemRobeSaVageOdPG" positionX="297" positionY="-171" width="198" height="255"/>
+        <element name="SviDOO" positionX="142" positionY="-333" width="128" height="135"/>
+        <element name="SviPG" positionX="-9" positionY="-360" width="128" height="163"/>
+        <element name="UgovorSaGazdinstvomKooperacija" positionX="-380" positionY="-390" width="254" height="630"/>
+    </elements>
+</model>
