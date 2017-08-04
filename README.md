@@ -4,11 +4,13 @@ Accounting aplication made for companies dealing with farmers. App tracks financ
 # ADDING A NEW CLIENT
 
 User inputs new client data into eight fields. Every piece of data is being checked against required conditions:
+
 <a href="https://imgflip.com/gif/1tj2g2"><img src="https://i.imgflip.com/1tj2g2.gif" title="made at imgflip.com"/></a>
 
 # CHANGE CLIENT DATA
 
 If necessary user can edit previously recorded data by selecting appropriate field:
+
 <a href="https://imgflip.com/gif/1tj2hk"><img src="https://i.imgflip.com/1tj2hk.gif" title="made at imgflip.com"/></a>
 
 # GOODS DELIVERED
@@ -16,24 +18,29 @@ If necessary user can edit previously recorded data by selecting appropriate fie
 CORN IN
 
 Farmer brings four loads of corn. Quality parameters (humidity, purity) is being recorded where data is provided and calcultated in if it steps out of standard for selected goods (corn, wheat, sunflower):
+
 <a href="https://imgflip.com/gif/1tj2cg"><img src="https://i.imgflip.com/1tj2cg.gif" title="made at imgflip.com"/></a>
 
 Farmer brings one load of corn. Quality parameters (humidity, purity) not recorded because data is not provided. All inputs are checked for non logical data inpouts. Warning is presented if data cheks out to be faulty:
+
 <a href="https://imgflip.com/gif/1tj2ry"><img src="https://i.imgflip.com/1tj2ry.gif" title="made at imgflip.com"/></a>
 
 WEATH IN
 
 Farmer brings two loads of weath. Quality parameters (humidity, purity) is being recorded where data is provided and calcultated in if it steps out of standard for selected goods (corn, wheat, sunflower):
+
 <a href="https://imgflip.com/gif/1tj2mb"><img src="https://i.imgflip.com/1tj2mb.gif" title="made at imgflip.com"/></a>
 
 # EXCHANGE RATE
 
 User is promted to provide selling/middle/buying exchange rate for Euro and Dollar. App checks if the exchange rate has been already saved for the particular date. If not, it checks user input for non logical data; example: selling exchange rate set to be lower than buying exchange rate. Warning presented if data needs to altered:
+
 <a href="https://imgflip.com/gif/1tj2wq"><img src="https://i.imgflip.com/1tj2wq.gif" title="made at imgflip.com"/></a>
 
 # ARTICLES
 
 User is promted to provide information about the smallest package available for selling. Required fields are Name, Origin,  Weight. Packaging description is a required input thru segmented control to avoid common mistakes. All fields are required in order to provide the user freedom to later inputs selling/buying quantities either using KG or PIECES. 
+
 <a href="https://imgflip.com/gif/1tj32i"><img src="https://i.imgflip.com/1tj32i.gif" title="made at imgflip.com"/></a>
 
 # CONTRACTS
@@ -50,6 +57,7 @@ If the contract is in domestic currency, exchanger rate is not being calculated 
 If the contract is in domestic currency, exchanger rate is not being calculated in, it can be turned off by moving the switch to off position. Farmer has to clear his debt on time, otherwise interest on his unpaid portion of the contract value is being calculated in. This is optional so there is another switch to turn off this option.
 
 Farmer has to provide guarantees paperwork. Number of guarantee is being recorded also. All inputs are checked:
+
 <a href="https://imgflip.com/gif/1tj3a9"><img src="https://i.imgflip.com/1tj3a9.gif" title="made at imgflip.com"/></a>
 
 **CONTRACT FOR ARTICLE 1 GOODS PULLED FROM THE WAREHOUSE
@@ -70,6 +78,7 @@ User input mistakes are minimal because user input is limited and checked. If th
 Fertilizer brand name NPK
 
 Farmers name is being inputed and appropriate articles are being selected. User also provides details about the quantity and packaging of the goods given to the farmer. Data is check for inconsistencies:
+
 <a href="https://imgflip.com/gif/1tj3v4"><img src="https://i.imgflip.com/1tj3v4.gif" title="made at imgflip.com"/></a>
 
 # FINANCIAL JUST TWO CONTRACTS
