@@ -5,15 +5,20 @@ Accounting aplication made for companies dealing with farmers. App tracks financ
 
 User inputs new client data into eight fields. Every piece of data is being checked against required conditions:
 
+<a href="https://imgflip.com/i/1tkyvz"><img src="https://i.imgflip.com/1tkyvz.jpg" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/1tj2g2"><img src="https://i.imgflip.com/1tj2g2.gif" title="made at imgflip.com"/></a>
 
 # CHANGE CLIENT DATA
 
 If necessary user can edit previously recorded data by selecting appropriate field:
+<a href="https://imgflip.com/i/1tkyz3"><img src="https://i.imgflip.com/1tkyz3.jpg" title="made at imgflip.com"/></a>
 
 <a href="https://imgflip.com/gif/1tj2hk"><img src="https://i.imgflip.com/1tj2hk.gif" title="made at imgflip.com"/></a>
 
 # GOODS DELIVERED
+
+<a href="https://imgflip.com/i/1tkz01"><img src="https://i.imgflip.com/1tkz01.jpg" title="made at imgflip.com"/></a>
 
 CORN IN
 
@@ -35,15 +40,21 @@ Farmer brings two loads of weath. Quality parameters (humidity, purity) is being
 
 User is promted to provide selling/middle/buying exchange rate for Euro and Dollar. App checks if the exchange rate has been already saved for the particular date. If not, it checks user input for non logical data; example: selling exchange rate set to be lower than buying exchange rate. Warning presented if data needs to altered:
 
+<a href="https://imgflip.com/i/1tkz14"><img src="https://i.imgflip.com/1tkz14.jpg" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/1tj2wq"><img src="https://i.imgflip.com/1tj2wq.gif" title="made at imgflip.com"/></a>
 
 # ARTICLES
 
 User is promted to provide information about the smallest package available for selling. Required fields are Name, Origin,  Weight. Packaging description is a required input thru segmented control to avoid common mistakes. All fields are required in order to provide the user freedom to later inputs selling/buying quantities either using KG or PIECES. 
 
+<a href="https://imgflip.com/i/1tkz2s"><img src="https://i.imgflip.com/1tkz2s.jpg" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/1tj32i"><img src="https://i.imgflip.com/1tj32i.gif" title="made at imgflip.com"/></a>
 
 # CONTRACTS
+
+<a href="https://imgflip.com/i/1tkz3x"><img src="https://i.imgflip.com/1tkz3x.jpg" title="made at imgflip.com"/></a>
 
 **NEW CONTRACT FOR ARTICLE 1:
 Fertilizer brand name UREA
@@ -63,6 +74,8 @@ Farmer has to provide guarantees paperwork. Number of guarantee is being recorde
 **CONTRACT FOR ARTICLE 1 GOODS PULLED FROM THE WAREHOUSE
 Fertilizer brand name UREA
 
+<a href="https://imgflip.com/i/1tkz4q"><img src="https://i.imgflip.com/1tkz4q.jpg" title="made at imgflip.com"/></a>
+
 When the contract is signed farmer can pick up goods needed. User types farmers name, table with all contracts associated with that farmer is populated. Table show details of each contract, most importantly shows how much more of the goods can be taken off the current contract. Every time goods are being taken off the contract, app check if it is under signed quantities.
 
 <a href="https://imgflip.com/gif/1tj3it"><img src="https://i.imgflip.com/1tj3it.gif" title="made at imgflip.com"/></a>
@@ -81,7 +94,9 @@ Farmers name is being inputed and appropriate articles are being selected. User 
 
 <a href="https://imgflip.com/gif/1tj3v4"><img src="https://i.imgflip.com/1tj3v4.gif" title="made at imgflip.com"/></a>
 
-# FINANCIAL JUST TWO CONTRACTS
+# FINANCIAL PAGE OF THE FARMER
+
+<a href="https://imgflip.com/i/1tkz69"><img src="https://i.imgflip.com/1tkz69.jpg" title="made at imgflip.com"/></a>
 
 User can see financial status of each farmer. Every cell shows details about the particular contract and it's starting value, interest accumulated and exchange rate changes calculated and presented separately. Also user can see financial status and value of each farmers debt based on date when contracts expire or financial status altogether for more broader view of financials.
 
@@ -100,24 +115,38 @@ User inputs how much money is paid to the farmer, selects the bank, date and the
 # BUYING GOODS WITH TWO CONTRACTS CLEARED
 Farmer comes to the administration office to get his invoice. User selects goods to be calculated in (all based on previous  goods deliveries inputs). List of inputs is colored in red and green indicating if those deliveries. User inputs the price of goods being bought and selects contracts to be substracted from this purchase. Value of each contract can be adjusted using sliders. Tax part is being calculated separately in order to be paid separately. Compensation paper is being generated and printed. Exchange rate calculation paper is being generated and printed. Compansation paper and exchange rate paper connect this particular inovice. This inovice is connected to particular goods delivery input. Financial status of the farmer is altered:
 
+<a href="https://imgflip.com/i/1tkz7q"><img src="https://i.imgflip.com/1tkz7q.jpg" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/i/1tkz9h"><img src="https://i.imgflip.com/1tkz9h.jpg" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/i/1tkzld"><img src="https://i.imgflip.com/1tkzld.jpg" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/i/1tkzmx"><img src="https://i.imgflip.com/1tkzmx.jpg" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/1tj4k8"><img src="https://i.imgflip.com/1tj4k8.gif" title="made at imgflip.com"/></a>
 
 # PAYING MONEY FOR TAX MUST PART AND THE REST TO CLEAR
+
+<a href="https://imgflip.com/i/1tkze4"><img src="https://i.imgflip.com/1tkze4.jpg" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/i/1tkzff"><img src="https://i.imgflip.com/1tkzff.jpg" title="made at imgflip.com"/></a>
 
 <a href="https://imgflip.com/gif/1tj4qt"><img src="https://i.imgflip.com/1tj4qt.gif" title="made at imgflip.com"/></a>
 
 # BUYING GOODS NO CONTRACT
 Farmer can sell his goods and get the full amount paid even if he has open contracts. User is able to go around open contracts and pay the full amount to the farmer.
 
+<a href="https://imgflip.com/i/1tkzgv"><img src="https://i.imgflip.com/1tkzgv.jpg" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/1tj4wt"><img src="https://i.imgflip.com/1tj4wt.gif" title="made at imgflip.com"/></a>
 
 # ADVANCE PAYMENT
 Sometimes a farmer needs some cash in advance. User can input this type of change into app and clear them later when the farmer delivers goods:
 
+<a href="https://imgflip.com/i/1tkzi7"><img src="https://i.imgflip.com/1tkzi7.jpg" title="made at imgflip.com"/></a>
+
 <a href="https://imgflip.com/gif/1tj52e"><img src="https://i.imgflip.com/1tj52e.gif" title="made at imgflip.com"/></a>
 
 # ADVANCE PAYMENT CLEARED WITH BUYING GOODS AND TAX MUST PART PAID
 When clearing advance payment, farmer delivers goods to the company. User creates invoice, select the advance payment to be cleared, uses the slider to adjust the value. Note that slider cannot exceed the value of goods without tax and it levels to the hundreds part of contract value. App calculates necessary paperwork and updates financial status of the farmer.
+
+<a href="https://imgflip.com/i/1tkzk2"><img src="https://i.imgflip.com/1tkzk2.jpg" title="made at imgflip.com"/></a>
 
 <a href="https://imgflip.com/gif/1tj59b"><img src="https://i.imgflip.com/1tj59b.gif" title="made at imgflip.com"/></a>
 
