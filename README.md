@@ -61,12 +61,12 @@ User is promted to provide information about the smallest package available for 
 
 # CONTRACTS
 
+Farmer needs fertilizers, or seed for his field so he decides to make a contract to finance his purchase. Contract states that he will sell his future production to the company in order to clear his debt.
+
 <a href="https://imgflip.com/i/1tkz3x"><img src="https://i.imgflip.com/1tkz3x.jpg" title="made at imgflip.com"/></a>
 
 MAKING A NEW CONTRACT
 EXAMPLE 1:
-
-Farmer needs fertilizers, or seed for his field so he decides to make a contract to finance his purchase. Contract states that he will sell his future production to the company in order to clear his debt.
 
 Making a new contract with the farmer is easy. User selects previously entered article from the picker, enters the quantity and packiging. User selects goods in which the farmer pays out his depbt and date picker automatically sets to predefined date. This date can also be manually altered. Exchange rate is saved for the currency selected in order to calculate further value of the contract.
 
@@ -87,10 +87,12 @@ User input mistakes are minimal because user input is limited and checked. If th
 
 # ISSUING FERTILIZER FROM THE WAREHOUSE BASED ON PREVIOUSLY SIGNED CONTRACT
 
+When the contract is signed farmer can pick up goods needed. Only active contracts with sufficient unused quantities can be used to issue goods to the farmer from the warehouse. 
+
 <a href="https://imgflip.com/i/1tkz4q"><img src="https://i.imgflip.com/1tkz4q.jpg" title="made at imgflip.com"/></a>
 
 EXAMPLE 1:
-When the contract is signed farmer can pick up goods needed. User types farmers name, table with all contracts associated with that farmer is populated. Table show details of each contract, most importantly shows how much more of the goods can be taken off the current contract. Every time goods are being taken off the contract, app check if it is under signed quantities.
+User types farmers name, table with all contracts associated with that farmer is populated. Table show details of each contract, most importantly shows how much more of the goods can be taken off the current contract. Every time goods are being taken off the contract, app check if it is under signed quantities.
 
 <a href="https://imgflip.com/gif/1tj3it"><img src="https://i.imgflip.com/1tj3it.gif" title="made at imgflip.com"/></a>
 
