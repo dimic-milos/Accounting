@@ -15,6 +15,7 @@ User inputs new client data into eight fields. Every piece of data is being chec
 # CHANGE CLIENT DATA
 
 If necessary user can edit previously recorded data by selecting appropriate field:
+
 <a href="https://imgflip.com/i/1tkyz3"><img src="https://i.imgflip.com/1tkyz3.jpg" title="made at imgflip.com"/></a>
 
 <a href="https://imgflip.com/gif/1tj2hk"><img src="https://i.imgflip.com/1tj2hk.gif" title="made at imgflip.com"/></a>
@@ -77,14 +78,6 @@ Farmer has to provide guarantees paperwork. Number of guarantee is being recorde
 
 <a href="https://imgflip.com/gif/1tj3a9"><img src="https://i.imgflip.com/1tj3a9.gif" title="made at imgflip.com"/></a>
 
-ISSUING FERTILIZER FROM THE WAREHOUSE BASED ON PREVIOUSLY SIGNED CONTRACT
-EXAMPLE 1:
-<a href="https://imgflip.com/i/1tkz4q"><img src="https://i.imgflip.com/1tkz4q.jpg" title="made at imgflip.com"/></a>
-
-When the contract is signed farmer can pick up goods needed. User types farmers name, table with all contracts associated with that farmer is populated. Table show details of each contract, most importantly shows how much more of the goods can be taken off the current contract. Every time goods are being taken off the contract, app check if it is under signed quantities.
-
-<a href="https://imgflip.com/gif/1tj3it"><img src="https://i.imgflip.com/1tj3it.gif" title="made at imgflip.com"/></a>
-
 MAKING A NEW CONTRACT
 EXAMPLE 2:
 
@@ -92,7 +85,15 @@ User input mistakes are minimal because user input is limited and checked. If th
 
 <a href="https://imgflip.com/gif/1tj3p8"><img src="https://i.imgflip.com/1tj3p8.gif" title="made at imgflip.com"/></a>
 
-ISSUING FERTILIZER FROM THE WAREHOUSE BASED ON PREVIOUSLY SIGNED CONTRACT
+# ISSUING FERTILIZER FROM THE WAREHOUSE BASED ON PREVIOUSLY SIGNED CONTRACT
+
+<a href="https://imgflip.com/i/1tkz4q"><img src="https://i.imgflip.com/1tkz4q.jpg" title="made at imgflip.com"/></a>
+
+EXAMPLE 1:
+When the contract is signed farmer can pick up goods needed. User types farmers name, table with all contracts associated with that farmer is populated. Table show details of each contract, most importantly shows how much more of the goods can be taken off the current contract. Every time goods are being taken off the contract, app check if it is under signed quantities.
+
+<a href="https://imgflip.com/gif/1tj3it"><img src="https://i.imgflip.com/1tj3it.gif" title="made at imgflip.com"/></a>
+
 EXAMPLE 2:
 
 Farmers name is being inputed and appropriate articles are being selected. User also provides details about the quantity and packaging of the goods given to the farmer. Data is check for inconsistencies:
