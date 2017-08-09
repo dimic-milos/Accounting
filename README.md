@@ -2,7 +2,36 @@
 
 QUICK OVERVIEW
 
-Accounting aplication is made for companies dealing with farmers. App tracks financial status of each farmer based on the farmer grain production, his purchases, currently active cooperation contracts for seed, fertilizer or short-term cash allowances. Automatic quantification of goods sold by the farmer are valued in according quality standards for each food group. Financial calculations do include EURO or DOLLAR currency tracking, and are adjusted according to the exchange rate changes in these currencies. Interest, if debt is overdue, is also calculated into financial status daily. This aplication also generates all necessary paperwork for bookkeeping and connects all documents with uniqe identification number. User is able to look into financial status of each farmer, to see all previos and active contract, advance payments, goods sold/bought and most importantly current state of debt, even including contracts not yet due. Tax payment is managed by clear red/green signalization so user has a clear overview of payments needing priority.
+Accounting aplication is made for companies doing business with farmers. User is able to look into financial status of each farmer. App tracks:
+1. Financial status based on the farmer grain production
+2. Farmer's purchases
+  
+      a. Past and currently active contracts for seed or fertilizer 
+ 
+      b. Short-term cash advance payments 
+  
+  
+      c. Goods sold/bought 
+
+3. Current state of debt including/excluding contracts not yet due
+  
+  
+  
+Automatic quantification of sold goods are valued according to quality standards for each food group. Financial calculations available include: 
+
+     a. EURO or DOLLAR currency tracking, and are adjusted according to the current exchange rate 
+ 
+     b. Interest calculated daily in case debt is overdue
+ 
+     c. Complete bookkeeping paperwork automatically generated connecting all documents with uniqe identification number.
+ 
+     d. Tax payment is managed by clear red/green signalization so user has a clear overview of payments needing priority.
+
+
+# Find every functionality explained in detail below
+
+Full resolution videos available for download in the file list
+
 
 # ADDING A NEW CLIENT
 
